@@ -1,7 +1,16 @@
 <!doctype html>
-<div id="wrapper">
-    <html>
-        <header class="main">
+
+    <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Basic Feedback Form for My Site">
+<meta name="author" content="mazzarb1@tcnj.edu">
+    </head>
+    
+    
+    <div id="wrapper">
+        <header class="main>
              <h1> CONTACT TEST </h1>
 
             <link rel="stylesheet" href="./mystyles.css" />
@@ -9,25 +18,39 @@
             <style>
 </style>
 
+</header>
+
+<body>
+    
+<div class="container">
+	<div class="row">
+		<header class="col-md-12">
+			<h1>Feedback Form</h1>
+		</header>
+	</div>
+<div id="contactform">
+	<div class="row">
+		<article class="col-md-12">
+			<form action="mailto:mazzarb1@tcnj.edu" method="post" enctype="text/plain">
+				<div class="form-group">
+					<label>From</label>
+<input class="form-control" type="text" name="from"  placeholder="Enter email">
+				</div>
+				<div class="form-group">
+					<label>Subject</label>
+					<input class="form-control" type="text" name="subject"  placeholder="Enter Subject">
+</div>
+				<div class="form-group">
+					<label>Message</label>
+					<textarea class="form-control" name="message"></textarea>
+				</div>
+				<input type="submit" class="btn btn-default" name="submit" value="Submit Feedback">
+			</form>
+
+
+
+
 <nav>
-
-
-<form role="form">
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-  </div>
-  <div class="comments">
-      <label for="exampleComments">Add Commenets here</label>
-      <input type="Messages" class="form-control" id="exampleComments" placeholder="Enter Comments">
-      
-  </div>
-  <div class="form-group">
-    <label for="exampleInputFile">File input</label>
-    <input type="file" id="exampleInputFile">
-  </div>
-  <button type="submit" class="btn btn-default">Submit</button>
-</form>
 
 <li>
     <a href="./index.html">Return to Home Page </a> </li>         
